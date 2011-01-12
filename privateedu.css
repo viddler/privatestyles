@@ -6,5 +6,43 @@ By: Colin Devroe
 */
 
 body {
-  background: #000;
+  background: #9CEF6C;
+  color: #369100;
 }
+
+/* Header */
+#head {
+  height: 150px !important;
+  background: #369100;
+}
+
+  #head img { display: none; }
+  
+  #head h1 { margin-top: 25px; font-size: 3em; color: #fff; text-align: center; }
+    #head h1 span.subtitle { display: block; padding: 5px; text-align: center; color: #BEF73E; }
+    
+  #head ul { width: 250px; margin: 28px 0 0 0; padding: 0; list-style: none; float: right;}
+		#head ul li { display: inline; margin: 0; padding: 0; }
+			#head ul li a { color: #369100; font-weight: bold; background: #9CEF6C; padding: 8px; }
+			
+/* Page navigation */
+.breadcrumbs { display: none; }
+
+/* Currently loaded video */
+#center #thevideo { margin: 0 auto; clear: both !important; float: none !important; width: 450px; text-align: center; }
+  #center #thevideo h2 { font-size: 2.3em; text-align: left; color: #369100; font-weight: bold; }
+
+/* Video thumbnail navigation */
+#center ul { float: none !important; list-style: none; margin: 0 auto; width: 450px; height: 200px; overflow: auto; padding: 5px 10px; }
+  
+  #center ul li { padding: 10px; width: 75px; float: left; }
+  #center ul li.selected { background: #369100; }
+  #center ul li.selected a { color: #9CEF6C; text-decoration: none; }
+    #center ul li a { color: #369100; }
+    #center ul li a span.title { font-weight: bold; font-size: 1em; }
+    #center ul li a span.description { display: none; }
+    #center ul li img { width: 75px; }
+    
+#footer { clear: both; border: none; }
+  #footer p { float: right; margin: 0; font-size: 1em; }
+	 #footer p a { padding: 10px; background: #369100; text-decoration: none; color: #9CEF6C; }
